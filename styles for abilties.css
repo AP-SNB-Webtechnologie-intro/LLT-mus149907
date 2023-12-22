@@ -1,0 +1,12 @@
+.blue-container {
+    background-color: #3498db;
+    padding: 20px;
+    color: #fff;
+}
+
+
+.blue-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+} 

@@ -6,128 +6,114 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
-
-
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="css\styles for abilties.css" >
     <title>League of Abilities</title>
 </head>
-<style> /* Optional: Add custom styles for the blue container */
-    .blue-container {
-        background-color: #3498db;
-        padding: 20px;
-        color: #fff;
-    }
-
-    /* Optional: Add custom styles for the images */
-    .blue-container img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px; /* Optional: Add some space between images */
-    }</style>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #d3d3d321;">
-        <a class="navbar-brand" href="index.html">League of Abilities</a>
-        <img src="Screenshot 2023-12-01 133818.png" alt="" height="80">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="overzicht.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="championsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Champions
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="championsDropdown">
-                        <li><a class="dropdown-item" href="aatroxlore.html">Aatrox</a></li>
-                        <li></li><a class="dropdown-item" href="yonelore.html">Yone</a></li>
-                        <li><a class="dropdown-item" href="samiralore.html">Samira</a></li>
-                    </ul>
+    <navbarsection>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #d3d3d321;">
+            <a class="navbar-brand" href="index.html">League of Abilities</a>
+            <img src="images\sylaslogobetter.png" alt="Sylas Logo Site" height="80">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="overzicht.html">About</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="championsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Abilties
+                            Champions
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="championsDropdown">
+                            <li><a class="dropdown-item" href="aatroxlore.html">Aatrox</a></li>
+                            <li><a class="dropdown-item" href="yonelore.html">Yone</a></li>
+                            <li><a class="dropdown-item" href="samiralore.html">Samira</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="abilitiesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Abilities
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="abilitiesDropdown">
                             <li><a class="dropdown-item" href="aatroxability.html">Aatrox</a></li>
-                            <li></li><a class="dropdown-item" href="yoneability.html">Yone</a></li>
+                            <li><a class="dropdown-item" href="yoneability.html">Yone</a></li>
                             <li><a class="dropdown-item" href="samiraability.html">Samira</a></li>
                         </ul>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>              
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </navbarsection>
     <section class="blue-container">
-        <div class="container-fluid">
-            <!-- First row -->
-            <div class="row">
-                <div class="col-sm-2">
-                    <!-- Box 1 -->
-                    <img src="icon-p.jpg" alt="">
+        <abilitysection class="container-fluid">
+            <h1 style="text-align: center; color: rgb(252, 251, 251); background-color: #000000; padding: 20px; border-radius: 50px;">Ability: Aatrox</h1>
+            <abilitysection class="row">
+                <section class="col-sm-2">
+                    
+                    <img src="images\icon-p.jpg" alt="Aatrox Passive">
                     <p>
                         PASSIVE
                         DEATHBRINGER STANCE
                         Periodically - 
                         Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.</p>
-                </div>
-                <div class="col-sm-2">
-                    <!-- Box 2 -->
-                    <img src="aatroxQ.jpg" alt="">
+                </section>
+                <section class="col-sm-2">
+                    <img src="images\aatroxQ.jpg" alt="Aatrox Q">
                     <p>Q
                         THE DARKIN BLADE -
                         Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.</p>
-                </div>
-                <div class="col-sm-2">
-                    <!-- Box 3 -->
-                    <img src="images.jpg" alt="">
+                </section>
+                <section class="col-sm-2">
+                    <img src="images\images.jpg" alt="Aatrox W">
                     <p>W
                         INFERNAL CHAINS -
                         Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.</p>
-                </div>
-                <div class="col-sm-2">
-                    <!-- Box 4 -->
-                    <img src="aatrox3.jpg" alt="">
+                </section>
+                <section class="col-sm-2">
+                    <img src="images\aatrox3.jpg" alt="Aatrox E">
                     <p>E
                         UMBRAL DASH
                         Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.</p>
-                </div>
-                <div class="col-sm-2">
-                    <!-- Box 5 -->
-                    <img src="aatroxR.jpg" alt="">
+                </section>
+                <section class="col-sm-2">
+                    <img src="images\aatroxR.jpg" alt="Aatrox R">
                     <p>R
                         WORLD ENDER -
                         Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended.</p>
-                </div>
-                <div class="col-sm-2">
-                    <!-- Box 6 -->
-                    <img src="ingamaatrox.gif" width="88" alt="">
-                    <p></p>
-                </div>
-            </div>
+                </section>
+            </abilitysection>
 
-            <div class="row">
-                <div class="col-sm-6">
-                    <video width="100%" height="auto" controls>
-                        <source src="aatrox vid q.webm" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-        
-                <div class="col-sm-6">
-                    <video width="100%" height="auto" controls>
-                        <source src="Aatrox R vid.webm" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-        </div>
+            <abilityvidsection class="row">
+                <vidsection class="col-sm-6">
+                    <div class="video-container" style="background-color: #013161; border-radius: 15px; padding: 10px;">
+                        <video width="100%" height="auto" controls>
+                            <source src="videos\aatrox vid q.webm" alt="aatrox Q ability" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </vidsection>
+                
+                <vidsection class="col-sm-6">
+                    <div class="video-container" style="background-color: #013161; border-radius: 15px; padding: 10px;">
+                        <video width="100%" height="auto" controls>
+                            <source src="videos\Aatrox R vid.webm" alt="aatrox R ability" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </vidsection>
+            </abilityvidsection>           
     </section>
 </body>

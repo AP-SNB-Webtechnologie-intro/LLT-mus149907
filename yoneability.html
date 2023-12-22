@@ -6,145 +6,113 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
-
-
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="css\styles for abilties.css" >
     <title>League of Abilities</title>
 </head>
-<style> /* Optional: Add custom styles for the blue container */
-    .blue-container {
-        background-color: #3498db;
-        padding: 20px;
-        color: #fff;
-    }
-
-    /* Optional: Add custom styles for the images */
-    .blue-container img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px; /* Optional: Add some space between images */
-    }</style>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #d3d3d321;">
-        <a class="navbar-brand" href="index.html">League of Abilities</a>
-        <img src="Screenshot 2023-12-01 133818.png" alt="" height="80">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="overzicht.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="championsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Champions
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="championsDropdown">
-                        <li><a class="dropdown-item" href="aatroxlore.html">Aatrox</a></li>
-                        <li></li><a class="dropdown-item" href="yonelore.html">Yone</a></li>
-                        <li><a class="dropdown-item" href="samiralore.html">Samira</a></li>
-                    </ul>
+    <navbarsection>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #d3d3d321;">
+            <a class="navbar-brand" href="index.html">League of Abilities</a>
+            <img src="images\sylaslogobetter.png" alt="Sylas Site Logo" height="80">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="overzicht.html">About</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="championsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Abilties
+                            Champions
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="championsDropdown">
+                            <li><a class="dropdown-item" href="aatroxlore.html">Aatrox</a></li>
+                            <li><a class="dropdown-item" href="yonelore.html">Yone</a></li>
+                            <li><a class="dropdown-item" href="samiralore.html">Samira</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="abilitiesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Abilities
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="abilitiesDropdown">
                             <li><a class="dropdown-item" href="aatroxability.html">Aatrox</a></li>
-                            <li></li><a class="dropdown-item" href="yoneability.html">Yone</a></li>
+                            <li><a class="dropdown-item" href="yoneability.html">Yone</a></li>
                             <li><a class="dropdown-item" href="samiraability.html">Samira</a></li>
                         </ul>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>              
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </navbarsection>
     <section class="blue-container">
         <article class="container-fluid">
-            <div class="row">
-                <div class="col-sm-2">
-                    <!-- Box 1 -->
-                    <img src="yonep.jpg" alt="">
+            <h1 style="text-align: center; color: rgb(252, 251, 251); background-color: #000000; padding: 20px; border-radius: 50px;">Ability: Yone</h1>
+            <abilitysection class="row">
+                <article class="col-sm-2">
+                    <img src="images\yoneP.jpg" alt="Yone Passive">
                     <p>PASSIVEWAY OF THE HUNTER -
                         Yone deals magic damage with every second Attack. In addition, his critical strike chance is increased.</p>
-
-                </div>
-                <div class="col-sm-2">
-                    <!-- Box 2 -->
-                    <img src="yoneq.jpg" alt="">
+                </article>
+                <article class="col-sm-2">
+                    <img src="images\yone2.jpg" alt="Yone Q">
                     <p>Q
                         MORTAL STEEL -
                         Thrusts forward, damaging all enemies in a line. On hit, grants a stack of Gathering Storm for a few seconds. At 2 stacks, Mortal Steel dashes Yone forward with a gust of wind knocking enemies Airborne. Mortal Steel is treated as a basic attack and scales with all the same things.</p>
-                </div>
-                <div class="col-sm-2">
-                    <!-- Box 3 -->
-                    <img src="yoneactualE.jpg" alt="">
+                </article>
+                <article class="col-sm-2">
+                    <img src="images\yoneactualE.jpg" alt="Yone W">
                     <p>W
                         SPIRIT CLEAVE -
                         Cleaves forward, damaging all enemies in a cone. Grants a shield to Yone, the value is increased by the number of champions hit by the swipe. Spirit Cleave's cooldown and cast time scale with attack speed.</p>
-                </div>
-                <div class="col-sm-2">
-                    <!-- Box 4 -->
-                    <img src="yoneE.jpg" alt="">
+                </article>
+                <article class="col-sm-2">
+                    <img src="images\yoneW.jpg" alt="Yone E">
                     <p>E
                         SOUL UNBOUND -
-                        Yone's spirit leaves his body behind, gaining Move Speed. When this skill ends, Yone's spirit is forced back to his body and he repeats a portion of the damage he dealt as a spirit.
-                        
-                        </p>
-                </div>
-                <div class="col-sm-2">
-                    <!-- Box 5 -->
-                    <img src="yoneR.jpg" alt="">
+                        Yone's spirit leaves his body behind, gaining Move Speed. When this skill ends, Yone's spirit is forced back to his body and he repeats a portion of the damage he dealt as a spirit.</p>
+                </article>
+                <article class="col-sm-2">
+                    <img src="images\download.jpg" alt="Yone R">
                     <p>R
                         FATE SEALED
                         Yone blinks behind the last champion in a line with a slash so powerful it pulls all enemies hit towards him.</p>
-                </div>
-                <div class="col-sm-2">
-                    <!-- Box 6 -->
-                    <img src="yone-league-of-legends.gif" width="88" alt="">
-                    <p></p>
-                </div>
-            </div>
+                </article>
+            </abilitysection>
             <div class="row">
                 <div class="col-sm-6">
-                    <video width="100%" height="auto" controls>
-                        <source src="yone evid.webm" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <div class="video-container" style="background-color: #013161; border-radius: 15px; padding: 10px;">
+                        <video width="100%" height="auto" controls>
+                            <source src="videos\yone evid.webm" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
-        
                 <div class="col-sm-6">
-                    <video width="100%" height="auto" controls>
-                        <source src="YONE rvid.webm" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <div class="video-container" style="background-color: #013161; border-radius: 15px; padding: 10px;">
+                        <video width="100%" height="auto" controls>
+                            <source src="videos\YONE rvid.webm" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
-            </div>
-
-        
-        
-        
-        
-            
+            </div>            
         </article>
-                
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </section>
-</body>
+    </section>    
+    </body>
+    </html>
+    
+
+

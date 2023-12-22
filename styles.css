@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('frelsylas.jpg');
+    background-image: url('/images/frelsylas.jpg');
     background-size: 140%;
     min-height: 100vh;
     display: flex;
@@ -14,8 +14,10 @@ body {
     margin-bottom: 50px; 
     margin-left: calc(2vw + 20px); 
     margin-right: calc(2vw + 20px); 
-    padding: 20
+    padding: 20px; 
+    border-radius: 15px; 
 }
+
 
 
 
@@ -74,4 +76,12 @@ body {
     color: #ffffff; 
     font-weight: bold; 
     text-align: center; 
+}
+.col-sm-2 {
+    background-color: #013161;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+
 }

@@ -1,0 +1,23 @@
+{
+  "display": "Node 20",
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "module": "ESNEXT",
+    "target": "ES2020",
+    "outDir": "./dist/esm",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+  },
+  "include": ["./src", "./@types"],
+  "exclude": ["**.test.ts"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}
